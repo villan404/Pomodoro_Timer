@@ -13,7 +13,7 @@ let intervalId;
 let stoppedMinutes;
 let stoppedSecond;
 let clicked = false;
-let newMinute;
+let newMinute = workDuration;
 
 const timeChoice = (timeChooseValue) => {
     if(timeChooseValue === "work-time"){
