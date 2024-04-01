@@ -37,6 +37,14 @@ h3 {
   width: 100vw;
   height: auto
 }
+
+.msg{
+  /* align-self: flex-start; */
+  /* align-self: center; */
+  border: 1px solid black;
+  padding: 0.5rem 2rem;
+}
+
 .content{
   width: 50vw;
   display: flex;
@@ -46,6 +54,7 @@ h3 {
   border: 2px solid black;
   border-radius: 5rem;
   padding: 2rem;
+  margin-top: 2rem;
 }
 .choose {
   width: 90vw;
